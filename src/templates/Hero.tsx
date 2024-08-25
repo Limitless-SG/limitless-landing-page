@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
@@ -12,28 +13,33 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
+          <Link href="https://limitlesssg.talentlms.com/" target="_blank">
+            TalentLMS
           </Link>
-        </li>
-        <li>
-          <Link href="/">Sign in</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
+    <Section yPadding="pt-1 pb-32">
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'Enriching Our Learning Journey\n'}
+            <span className="text-primary-500">Limitless x TalentLMS</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        image={
+          <Image
+            src="/assets/images/Limitless_Logo.png"
+            alt="Limitless Logo"
+            width={275} // Adjust width as needed
+            height={275} // Adjust height as needed
+          />
+        }
+        description="Equip yourself with the skills and knowledge to empower youths overcoming challenges like poverty, mental illness, and social inequality"
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <Button xl>Download Your Free Theme</Button>
+          <Link href="https://limitlesssg.talentlms.com/" target="_blank">
+            <Button xl>Start Your Training Now!</Button>
           </Link>
         }
       />

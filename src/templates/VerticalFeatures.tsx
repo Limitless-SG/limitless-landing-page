@@ -3,27 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="We keep up to date with our learnings"
+    description="By tracking everyone's learnings, we can ensure we are always up to date with the latest regualtions and are able to provide the best help."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      title="Continuous Learning for Continuous Impact"
+      description="We ensure our volunteers are always equipped with the latest skills and knowledge by updating courses as regulations and needs evolve."
+      image="/assets/images/undraw_online_learning.svg"
+      imageAlt="Continuous Learning for Continuous Impact"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      title="Recognizing Your Achievements"
+      description="Earn badges and certificates as you progress, celebrating your dedication and expertise in advancing our mission."
+      image="/assets/images/undraw_certificate.svg"
+      imageAlt="Recognizing Your Achievements"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      title="Supporting Each Other's Growth"
+      description="Track progress and encourage your fellow volunteers to stay on course, fostering a community of continuous learning and mutual support."
+      image="/assets/images/undraw_showing_support.svg"
+      imageAlt="Supporting Each Other's Growth"
     />
   </Section>
 );
