@@ -3,12 +3,12 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="We keep up to date with our learnings"
-    description="By tracking everyone's learnings, we can ensure we are always up to date with the latest regualtions and are able to provide the best help."
+    title="Empowering Volunteers to Make a Difference"
+    description="As a Limitless volunteer, your dedication makes a real difference. Through the TalentLMS platform, we provide you with the tools to turn compassion into action."
   >
     <VerticalFeatureRow
       title="Continuous Learning for Continuous Impact"
-      description="We ensure our volunteers are always equipped with the latest skills and knowledge by updating courses as regulations and needs evolve."
+      description="We ensure you are always equipped with the latest skills and knowledge by updating courses as regulations and needs evolve."
       image="/assets/images/undraw_online_learning.svg"
       imageAlt="Continuous Learning for Continuous Impact"
     />
