@@ -8,9 +8,9 @@ const Banner = () => (
   <Section>
     <CTABanner
       title="View and enroll in your assigned learnings."
-      subtitle="Start your learning now."
+      subtitle="Start your learning now!"
       button={
-        <Link href="https://app.talentlms.com/login">
+        <Link href="https://limitlesssg.talentlms.com/" target="_blank">
           <Button>Log in</Button>
         </Link>
       }

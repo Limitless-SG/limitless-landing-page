@@ -9,7 +9,9 @@ type INavbarProps = {
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-between">
     <div>
-      <Link href="https://www.limitless.sg/">{props.logo}</Link>
+      <Link href="https://www.limitless.sg/" target="_blank">
+        {props.logo}
+      </Link>
     </div>
 
     <nav>

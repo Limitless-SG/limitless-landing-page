@@ -7,23 +7,23 @@ const VerticalFeatures = () => (
     description="By tracking everyone's learnings, we can ensure we are always up to date with the latest regualtions and are able to provide the best help."
   >
     <VerticalFeatureRow
-      title="Learning is a continuous cycle"
-      description="We enforce certain re-certifications, and update them as rules and regulations change."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      title="Continuous Learning for Continuous Impact"
+      description="We ensure our volunteers are always equipped with the latest skills and knowledge by updating courses as regulations and needs evolve."
+      image="/assets/images/undraw_online_learning.svg"
+      imageAlt="Continuous Learning for Continuous Impact"
     />
     <VerticalFeatureRow
-      title="Incentives with badges and certificates"
-      description="With optional and mandated learnings, incentivise yourself to recieve badges and certificates."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      title="Recognizing Your Achievements"
+      description="Earn badges and certificates as you progress, celebrating your dedication and expertise in advancing our mission."
+      image="/assets/images/undraw_certificate.svg"
+      imageAlt="Recognizing Your Achievements"
       reverse
     />
     <VerticalFeatureRow
-      title="Track everyone's progress and remind one another"
-      description="Send reminders to those enrolledf to learn, and view their progress and pacing."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      title="Supporting Each Other's Growth"
+      description="Track progress and encourage your fellow volunteers to stay on course, fostering a community of continuous learning and mutual support."
+      image="/assets/images/undraw_showing_support.svg"
+      imageAlt="Supporting Each Other's Growth"
     />
   </Section>
 );
